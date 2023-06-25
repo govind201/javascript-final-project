@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { firestore } from "../firebase";
-import "../styles/Notifications.css"; 
+import "../styles/Notifications.css";
 
 const Notifications = () => {
   const [notifications, setNotifications] = useState([]);
@@ -23,13 +23,15 @@ const Notifications = () => {
     <div className="notifications-container">
       <h2>Notifications</h2>
       <div className="notifications-list">
-        {notifications.map((notification, index) => (
-          notification && notification.message && (
-            <div key={index} className="notification">
-              <p>{notification.message}</p>
-            </div>
-          )
-        ))}
+        {notifications.map(
+          (notification, index) =>
+            notification &&
+            notification.message && (
+              <div key={index} className="notification">
+                <p>{notification.message}</p>
+              </div>
+            )
+        )}
       </div>
     </div>
   );

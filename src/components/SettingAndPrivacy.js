@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/SettingAndPrivacy.css"; 
+import "../styles/SettingAndPrivacy.css";
 
 const SettingsAndPrivacy = () => {
   const handleLogout = () => {

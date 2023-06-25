@@ -26,7 +26,7 @@ const TrendingTopics = () => {
         {trendingTopics.map((topic, index) => (
           <li key={index} className="trending-topic">
             <span className="trending-topic-link">
-              <span className="trending-topic-hashtag">{topic.name}</span>
+              <span className="pointer-cursor trending-topic-hashtag">#{topic.name}</span>
               <span className="trending-topic-description">
                 {topic.tweetCount}
               </span>

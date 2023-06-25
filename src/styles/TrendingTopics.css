@@ -15,7 +15,6 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  overflow-y: scroll;
 }
 
 .trending-topic {
@@ -44,97 +43,3 @@
   font-size: 14px;
   color: #657786;
 }
-
-/* .trending-topics-container {
-    background-color: #ffffff;
-    border-radius: 8px;
-    padding: 16px;
-  }
-  
-  .trending-topics-heading {
-    font-size: 18px;
-    font-weight: bold;
-    color: #14171a;
-    margin-bottom: 12px;
-  }
-  
-  .trending-topics-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .trending-topic {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
-  }
-  
-  .trending-topic-hashtag {
-    font-size: 16px;
-    font-weight: bold;
-    color: #14171a;
-    margin-right: 8px;
-  }
-  
-  .trending-topic-description {
-    font-size: 14px;
-    color: #657786;
-    margin-right: 8px;
-  }
-  
-  .trending-topic-tweet-count {
-    font-size: 14px;
-    color: #657786;
-  }
-   */
-/* .trending-topics-container {
-  background-color: #ffffff;
-  border-radius: 8px;
-  padding: 16px;
-}
-
-.trending-topics-heading {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 12px;
-}
-
-.trending-topics-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.trending-topic {
-  display: flex;
-  align-items: center;
-  background-color: #f5f8fa;
-  border-radius: 8px;
-  padding: 8px;
-  margin-bottom: 8px;
-}
-
-.blue {
-  background-color: #0000ff;
-  color: #ffffff;
-}
-
-.trending-topic-content {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.trending-topic-hashtag {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.trending-topic-description {
-  font-size: 14px;
-}
-
-.trending-topic-tweet-count {
-  font-size: 12px;
-  color: #657786;
-} */
