@@ -5,7 +5,6 @@ import TrendingTopics from "./components/TrendingTopics";
 import HomeTimeline from "./components/HomeTimeline";
 import Profile from "./components/Profile";
 import Notifications from "./components/Notifications";
-import SettingsAndPrivacy from "./components/SettingAndPrivacy";
 
 const App = () => {
   return (
@@ -24,7 +23,6 @@ const App = () => {
         </div>
         <div className="right-sidebar">
           <Notifications />
-          <SettingsAndPrivacy />
         </div>
       </div>
     </div>

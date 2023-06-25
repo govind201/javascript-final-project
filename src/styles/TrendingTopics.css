@@ -1,13 +1,9 @@
 .trending-topics-container {
-  background-color: #f5f8fa;
   padding: 16px;
-  border-radius: 8px;
 }
 
 .trending-topics-heading {
-  font-size: 18px;
-  font-weight: bold;
-  color: #14171a;
+  font-size: 20px;
   margin-bottom: 12px;
 }
 
@@ -22,10 +18,7 @@
 }
 
 .trending-topic-link {
-  display: flex;
-  align-items: center;
   color: #1da1f2;
-  text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
@@ -34,8 +27,8 @@
 }
 
 .trending-topic-hashtag {
-  font-size: 16px;
   font-weight: bold;
+  font-size: 16px;
   margin-right: 8px;
 }
 
