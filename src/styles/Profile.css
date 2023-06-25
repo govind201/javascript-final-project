@@ -1,0 +1,46 @@
+.profile {
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+}
+
+.profile-avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  margin-left: 20px;
+}
+
+.profile-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  font-size: 16px;
+  color: #555555;
+}
+
+.profile-counts {
+  display: flex;
+  margin-top: 10px;
+}
+
+.profile-counts .followers,
+.profile-counts .following {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #555555;
+}
+
+.profile-counts .count {
+  font-weight: bold;
+  color: #000000;
+}

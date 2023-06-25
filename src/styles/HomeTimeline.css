@@ -1,0 +1,97 @@
+.home-timeline {
+  margin: 20px;
+}
+
+.tweet {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.tweet-header {
+  display: flex;
+}
+
+.tweet-avatar {
+  margin: 1rem;
+}
+
+.tweet-avatar img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.tweet-content {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+
+}
+
+.tweet-content p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.tweet-content img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.tweet-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.handle {
+  color: #888;
+  margin-right: 5px;
+}
+
+.verified {
+  color: blue;
+  margin-right: 5px;
+  width: 1rem;
+}
+
+.engagement {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.engagement-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  color: #657786;
+}
+
+.engagement-item .count {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.engagement-item .label {
+  font-size: 14px;
+}
+
+.timestamp {
+  font-size: 14px;
+  color: #657786;
+}

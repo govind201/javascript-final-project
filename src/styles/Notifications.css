@@ -1,0 +1,33 @@
+.notifications-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.notifications-list {
+  margin-top: 20px;
+}
+
+.notification {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification p {
+  margin: 0;
+  color: #3d6dd4;
+}
+
+.notification:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
