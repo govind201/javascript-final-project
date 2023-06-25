@@ -27,7 +27,6 @@ const HomeTimeline = () => {
           .limit(5)
           .get();
         const tweetList = snapshot.docs.map((doc) => doc.data());
-        console.log("tweets", tweetList);
         setTweets(tweetList);
       } catch (error) {
         console.error("Error fetching tweets:", error);
