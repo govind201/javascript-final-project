@@ -11,7 +11,7 @@ const Profile = () => {
       try {
         const snapshot = await firestore
           .collection("users")
-          .where("username", "===", "ironman")
+          .where("username", "==", "ironman")
           .get();
         const userProfile = snapshot.docs.map((doc) => doc.data())[0];
         setProfile(userProfile);
