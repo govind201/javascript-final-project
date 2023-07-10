@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #1da1f2;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.header .logo {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.pointer-cursor:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  flex: 0 0 300px;
+  background-color: #f5f8fa;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.right-sidebar {
+  flex: 0 0 300px;
+  background-color: #f5f8fa;
+  padding: 20px;
+}

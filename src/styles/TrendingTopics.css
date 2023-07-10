@@ -1,0 +1,38 @@
+.trending-topics-container {
+  padding: 16px;
+}
+
+.trending-topics-heading {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.trending-topics-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trending-topic {
+  margin-bottom: 8px;
+}
+
+.trending-topic-link {
+  color: #1da1f2;
+  transition: color 0.2s ease-in-out;
+}
+
+.trending-topic-link:hover {
+  color: #1a91da;
+}
+
+.trending-topic-hashtag {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.trending-topic-description {
+  font-size: 14px;
+  color: #657786;
+}
